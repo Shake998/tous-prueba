@@ -1,0 +1,35 @@
+.top-container {
+    background-image: url(../../images/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 273px;
+}
+
+.top-container > .title, .subtitle  {
+    margin-bottom: 0;
+}
+
+.bottom-container {
+    max-width: 800px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+@media (max-width: 800px) {
+    .top-container {
+        background-image: url(../../images/bg-2.jpg);
+    }
+
+    .top-container > .title {
+        margin-top: auto;
+    }
+
+    .bottom-container {
+        display: none;
+    }
+}

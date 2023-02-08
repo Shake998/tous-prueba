@@ -1,0 +1,82 @@
+.section-btn {
+    background-image: url(../../images/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section-btn > div {
+    border-style: none;
+    background: none;
+    line-height: 15px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.card-text {
+    max-width: 400px;
+}
+
+.card-image {
+    /* width: 100%; */
+    border: none;
+    /* object-fit: cover; */
+}
+
+.image {
+    max-width: 100%;
+}
+
+.card-over {
+    font-weight: 700;  
+}
+.card-under {
+    font-weight: 400;
+}
+
+.card-description {
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.btn-1 {
+    background-color: #0F0F10;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+}
+.btn-2 {
+    /* margin-top: 10px; */
+    background-color: white;
+    color: #0F0F10;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.5px;    
+}
+
+@media (max-width: 800px) {
+
+    .section-btn {
+        background-image: none;
+    }
+
+    .section-btn > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-gallery {
+        margin: 0 0 3rem 0 !important;
+    }
+
+    .col-space {
+        display: none;
+    }
+
+    .card-text {
+        color: black !important;
+        max-width: 100%;
+    }
+}

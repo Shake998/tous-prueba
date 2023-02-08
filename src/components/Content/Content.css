@@ -1,0 +1,141 @@
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+.section-4 {
+    background: #D9D9D9;
+}
+
+.section-4 .top h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+}
+
+.section-4 .top h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+}
+
+.section-4 .top p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
+
+.section-4 .top span {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 3.5px;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide h2 {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+  .swiper-slide p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;  
+  }
+  .swiper-slide span {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 3.5px;
+  }
+
+@media (max-width: 800px) {
+    .section-1 > .top {
+        background-image: url(../../images/bg-2.jpg);
+    }
+
+    .section-1 > .top > .title {
+        margin-top: auto;
+    }
+
+    .section-1 > .bottom {
+        display: none;
+    }
+
+    .section-2 {
+        background-image: none;
+    }
+
+    .section-2 > div {
+        flex-direction: column;
+    }
+
+    .section-2 .col {
+        margin: 0 0 3rem 0 !important;
+        
+    }
+
+    .section-2 .card-text {
+        color: black !important;
+        max-width: 100%;
+    }
+
+    .card-image img {
+        content: url("../../images/bg-5.jpg");
+    }
+
+    .section-3 .lat-desktop {
+        display: none;
+    }
+
+    .section-3 .lat-mobile {
+        display: block;
+    }
+
+    .swiper-slide {
+        width: 95% !important;
+    }
+}
